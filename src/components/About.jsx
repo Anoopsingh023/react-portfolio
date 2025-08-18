@@ -3,7 +3,7 @@ import ReactTypingEffect from "react-typing-effect";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 // import profileImage from './assets/profile2.png';
-import profile2 from "../assets/profile2.jpg";
+import profile2 from "../assets/profile2.JPG";
 
 const About = () => {
   return (
