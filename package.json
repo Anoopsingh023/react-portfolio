@@ -13,6 +13,7 @@
     "@emailjs/browser": "^4.4.1",
     "@tailwindcss/vite": "^4.1.12",
     "@types/react-typing-effect": "^2.0.7",
+    "@vercel/analytics": "^1.5.0",
     "framer-motion": "^12.23.12",
     "prop-types": "^15.8.1",
     "react": "^19.1.1",
