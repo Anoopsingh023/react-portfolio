@@ -3,7 +3,7 @@ import ReactTypingEffect from "react-typing-effect";
 import { Typewriter } from "react-simple-typewriter";
 import Tilt from "react-parallax-tilt";
 // import profileImage from './assets/profile2.png';
-import profile2 from "../assets/profile2.JPG";
+import profile4 from "../assets/profile4.png"
 
 const About = () => {
   return (
@@ -37,7 +37,7 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I am full-Stack Web Developer with hands-on experience designing,
+            I am full-Stack Developer with hands-on experience designing,
             developing, and deploying responsive, scalable, and secure web
             applications. Proficient in React.js, Node.js, Express.js, MongoDB,
             and RESTful APIs. Strong skills demonstrated through building
@@ -70,8 +70,8 @@ const About = () => {
             gyroscope={true}
           >
             <img
-              src={profile2}
-              alt="Tarun Kaushik"
+              src={profile4}
+              alt="Anoop Kumar Singh"
               className="w-full h-full rounded-full object-cover drop-shadow-[0_10px_20px_rgba(130,69,236,0.5)]"
             />
           </Tilt>
