@@ -29,6 +29,10 @@ import sddt from './assets/education_logo/sddt_logo.png';
 import face from './assets/work_logo/face.png';
 import youtube from './assets/work_logo/youtube.jpg';
 import job from './assets/work_logo/job.png';
+import ticket from './assets/work_logo/ticket.png'
+import ai from './assets/work_logo/ai.png'
+import dashboard from './assets/work_logo/dashboard.png'
+import study from './assets/work_logo/study.png'
 
 
 export const SkillsInfo = [
@@ -150,6 +154,46 @@ export const SkillsInfo = [
       tags: ["React JS", "Node.js", "MongoDB", "Express", "HTML", "tailwind CSS", "JavaScript", "JWT", "Cloudinary", "Shadcn ui"],
       github: "https://github.com/Anoopsingh023/Job-Listing-Portal",
       // webapp: "https://movie-recommendation-app-jet.vercel.app/",
+    },
+    {
+      id: 3,
+      title: "Ticket Compare – Travel Fare Comparison Tool",
+      description:
+      "- A web-based application built with React.js that allows users to search routes and compare ticket prices across flights, buses, and trains. The tool integrates the RapidAPI Flight Search API to fetch real-time airfare data.",
+      image: ticket,
+      tags: ["React JS", "HTML", "tailwind CSS", "JavaScript",],
+      github: "https://github.com/Anoopsingh023/Ticket-Compare",
+      webapp: "https://ticket-compare-theta.vercel.app/",
+    },
+    {
+      id: 4,
+      title: "AI Studio – Interactive Prompt & Model Playground",
+      description:
+      "- AI Studio is a web-based platform that allows users to experiment with AI models in an intuitive and interactive way. The application provides a clean, responsive interface built with React, TypeScript, and Tailwind CSS, supporting both Light and Dark modes for accessibility.",
+      image: ai,
+      tags: ["React JS", "HTML", "tailwind CSS", "JavaScript",],
+      github: "https://github.com/Anoopsingh023/AI-Studio",
+      webapp: "https://ai-studio-ochre.vercel.app/",
+    },
+    {
+      id: 5,
+      title: "User Analytics Dashboard",
+      description:
+      "- The User Analytics Dashboard is a React-based web application that visualizes user data in an interactive and insightful way. It consumes mock user data from a public API and transforms it into meaningful insights using charts and tables. The dashboard summarizes key metrics such as total users, daily signups, avatar distribution, and recently joined users. It also provides a searchable and paginated list of users with sorting and detail viewing functionality. This project demonstrates strong skills in frontend development, data visualization, and state management while following a clean, modular architecture.",
+      image: dashboard,
+      tags: ["React JS", "HTML", "tailwind CSS", "JavaScript", "Recharts"],
+      github: "https://github.com/Anoopsingh023/user-analytics-dashboard",
+      webapp: "https://user-analytics-dashboard.vercel.app/",
+    },
+    {
+      id: 6,
+      title: "Study Material Aggregation Platform",
+      description:
+      "- The Study Material Aggregation Platform is a web application designed to centralize and organize academic resources in one place. It allows students to easily access notes, books, previous year question papers, tutorials, and other study materials without searching across multiple sources.",
+      image: study,
+      tags: ["HTML", "CSS", "JavaScript", ],
+      github: "https://github.com/Anoopsingh023/Study-Material-Aggregation-Platform",
+      webapp: "https://anoopsingh023.github.io/Study-Material-Aggregation-Platform/",
     },
     
   ];  
